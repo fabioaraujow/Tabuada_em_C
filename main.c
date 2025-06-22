@@ -6,8 +6,8 @@ while ((c = getchar()) != '\n' && c != EOF) {}
 }
 int main()
 {
-    int i, ret, N=10;
-    long long int calc[N], x;
+    int i, N=10;
+    long long int calc[N], x, ret;
     char resp, car;
 
     printf("***************************************************\n");
